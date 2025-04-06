@@ -28,9 +28,9 @@ To run the application, follow these steps:
 - Then, you can run the application the same way:
 
 
-   ```bash
- mvn clean install
-cat /path_to_file/people_sample.xlsx | java -jar target/*.jar
+```bash
+   mvn clean install
+  cat /path_to_file/people_sample.xlsx | java -jar target/*.jar
+  ```
+    
 
-
-![temps_56secondes.png](../../../Pictures/temps_56secondes.png)

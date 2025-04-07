@@ -32,5 +32,7 @@ To run the application, follow these steps:
    mvn clean install
   cat /path_to_file/people_sample.xlsx | java -jar target/*.jar
   ```
+
+![temps_25secondes.png](src/main/resources/temps_25secondes.png)
     
 

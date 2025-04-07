@@ -2,10 +2,7 @@ package com.example.demo;
 
 import com.example.demo.domain.Person;
 import com.example.demo.domain.Status;
-import com.example.demo.reader.PersonItemReader;
-import com.example.demo.service.PersonService;
 import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.batch.core.repository.JobRepository;
 import org.springframework.batch.test.JobLauncherTestUtils;
@@ -17,7 +14,6 @@ import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
 import org.springframework.test.context.TestPropertySource;
 import org.testcontainers.containers.PostgreSQLContainer;
-
 
 import java.time.LocalDate;
 import java.util.List;

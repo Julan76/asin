@@ -46,12 +46,5 @@ public class PersonItemReader implements ItemReader<Person>, ItemStream {
     @Override
     public void close() throws ItemStreamException {
         personList = null;
-        if (this.inputStream != null && this.inputStream != System.in) {
-            try {
-                this.inputStream.close();
-            } catch (IOException e) {
-                throw new ItemStreamException("Erreur lors de la fermeture du flux", e);
-            }
-        }
     }
 }

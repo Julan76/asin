@@ -67,7 +67,7 @@ public class PersonService {
                 persons.add(person);
             }
         } catch (IOException e) {
-            throw new FileException(e);
+            log.warn(e.getMessage());
         }
 
         return persons;

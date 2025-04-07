@@ -56,7 +56,6 @@ public class BatchConfig {
     @Bean
     public PersonItemReader reader()  {
         InputStream in = getClass().getClassLoader().getResourceAsStream(FILE_NAME);
-
         if (in == null) {
             in = System.in;
         }

@@ -9,7 +9,7 @@ To run the application, follow these steps:
 - Install the project with Maven:
 
    ```bash
-   mvn clean install
+   mvn clean install -DskipTests
   cat /path_to_file/people_sample.xlsx | java -jar target/*.jar
   ```
 
@@ -29,7 +29,7 @@ To run the application, follow these steps:
 
 
 ```bash
-   mvn clean install
+   mvn clean install -DskipTests
   cat /path_to_file/people_sample.xlsx | java -jar target/*.jar
   ```
 
